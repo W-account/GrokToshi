@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrokToshi.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="GrokToshi - AI-powered crypto ecosystem">
+    <meta property="og:image" content="images/GrokToshi4.jpg">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">GrokToshi</div>
+        <nav class="main-nav">
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#why" class="nav-link">Why On-chain AI?</a>
+                <a href="#ecosystem" class="nav-link">Ecosystem</a>
+                <a href="#join" class="nav-link">Join</a>
+            </div>
+            <!-- Ссылка на токен -->
+            <a href="????" class="buy-button">Buy $GROK Now</a>
+        </nav>
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <div class="mobile-menu-overlay">
+        <div class="mobile-menu-container">
+            <div class="mobile-menu-header">
+                <div class="logo">GrokToshi</div>
+                <div class="close-btn"><i class="fas fa-times"></i></div>
+            </div>
+            <nav class="mobile-nav">
+                <a href="#about">About</a>
+                <a href="#why">Why On-chain AI?</a>
+                <a href="#ecosystem">Ecosystem</a>
+                <a href="#join">Join</a>
+                <a href="#buy" class="mobile-buy-button">Buy $GROK</a>
+            </nav>
+            <div class="social-links-mobile">
+                <a href="????" aria-label="Twitter"><i class="fab fa-x"></i></a>
+                <a href="????" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-media">
+                <img src="images/GrokToshiiHero1.jpg" 
+                     alt="GrokToshi" 
+                     class="hero-image"
+                     srcset="images/GrokHero.jpg 480w,
+                             images/GrokHero.jpg 768w,
+                             images/GrokHero.jpg 1024w"
+                     sizes="(max-width: 480px) 480px,
+                            (max-width: 768px) 768px,
+                            1024px">
+                <div class="image-overlay"></div>
+            </div>
+            
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text-1">Grok</span>
+                    <span class="gradient-text-2">Toshi</span>
+                </h1>
+                <div class="hero-divider"></div>
+                <p class="hero-subtitle">The AI Crypto Revolution</p>
+                <p class="hero-text">Combining blockchain technology with artificial intelligence for next-gen financial ecosystem</p>
+                <!-- Ссылка на токен -->
+                <a href="????" class="hero-cta">
+                    <span>Buy $GROK</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="scroll-down">
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+            <div class="chevron"></div>
+        </div>
+    </section>
+
+
+    <section class="contract-address">
+        <div class="address-container">
+            <h3>BNB Contract Address:</h3>
+            <div class="address-wrapper">
+                <!-- BNB адресс -->
+                <span id="bnb-address">????</span>
+                <button class="copy-btn" onclick="copyAddress()">
+                    <i class="far fa-copy"></i>
+                </button>
+                <div class="copy-notification">Copied!</div>
+            </div>
+        </div>
+        <p style="margin-top: 5%;">Grok Toshi ($GROK) is a community-driven meme token created for entertainment and community engagement purposes only. $GROK is not an investment, does not guarantee financial returns, and does not offer ownership rights. Participation is voluntary. Always research (DYOR) before engaging with any cryptocurrency project. </p>
+    </section>
+
+    <section class="section about" id="about">
+        <h2 class="section-title">About GrokToshi</h2>
+        <div class="section-grid">
+            <div class="content-block">
+                <div class="text-container">
+                    <p class="about-text">Groktoshi ($GROK) isn't just a meme coin — it's a bold experiment at the crossroads of AI and crypto. Powered by a community of innovators, it channels the spirit of Grok, blending sharp insight with blockchain energy. Our mission: fuel the next wave of Web3 evolution, empower creators, and build a digital playground where ideas grow and everyone's part of the game.</p>
+                </div>
+            </div>
+            <div class="media-block">
+                <img src="images/AboutGrokToshi.png" 
+                     alt="AI and Blockchain" 
+                     class="responsive-image"
+                     srcset="images/AboutGrokToshi.png 480w,
+                             images/AboutGrokToshi.png 768w,
+                             images/AboutGrokToshi.png 1024w"
+                     sizes="(max-width: 768px) 100vw, 50vw">
+            </div>
+        </div>
+    </section>
+
+    <section class="section why" id="why">
+        <h2 class="section-title">Why GrokToshi?</h2>
+        <div class="section-grid">
+            <div class="media-block">
+                <img src="images/GrokToshi2.jpg" 
+                     alt="AI Innovation" 
+                     class="responsive-image"
+                     srcset="images/GrokToshi2.jpg 480w,
+                             images/GrokToshi2.jpg 768w,
+                             images/GrokToshi2.jpg 1024w"
+                     sizes="(max-width: 768px) 100vw, 50vw">
+            </div>
+            <div class="content-block">
+                <div class="feature-card">
+                    <h3>Backed by Innovation</h3>
+                    <p>GrokToshi embodies the future of memes and AI, connecting global communities through tech and humor.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Meme Power with Real Impact</h3>
+                    <p>Not just a meme. GrokToshi fuels the Web3 ecosystem, driving AI research, creative freedom, and decentralized finance.</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Community-First Mission</h3>
+                    <p>$GROK holders gain access to exclusive content, governance rights, special drops, and early features shaping the future.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section ecosystem" id="ecosystem">
+        <h2 class="section-title">Ecosystem</h2>
+        <div class="section-grid reverse">
+            <div class="media-block">
+                <img src="images/GrokToshi3.jpg"
+                     alt="Ecosystem"
+                     class="responsive-image"
+                     srcset="images/GrokToshi3.jpg 480w,
+                             images/GrokToshi3.jpg 768w,
+                             images/GrokToshi3.jpg 1024w"
+                     sizes="(max-width: 768px) 100vw, 50vw">
+            </div>
+            <div class="content-block">
+                <div class="feature-card">
+                    <h3>AI Meme Engine</h3>
+                    <p>Automated content generator integrated with Solana blockchain</p>
+                </div>
+                <div class="feature-card">
+                    <h3>NFT Marketplace</h3>
+                    <p>Create and trade AI-generated meme NFTs</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Community DAO</h3>
+                    <p>Decentralized governance for all holders</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section join" id="join">
+        <div class="split-section">
+            <div class="media-block hover-effect">
+                <img src="images/Jointheclub.png" 
+                     alt="Join Now" 
+                     class="responsive-image"
+                     srcset="images/Jointheclub.png 480w,
+                             images/Jointheclub.png 768w,
+                             images/Jointheclub.png 1024w"
+                     sizes="100vw">
+            </div>
+            <div class="content-block">
+                <h2>Rewrite Crypto History</h2>
+                <p>Be part of the movement that's redefining blockchain culture through AI-powered innovation.</p>
+                <!-- Ссылка на клуб -->
+                <a href="????" class="cta-button">Join Now</a>
+                <div class="deco-line"></div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3 class="logo">GrokToshi</h3>
+                <h2>Connect</h2>
+                <div class="social-links">
+                    <!-- X и telegram -->
+                    <a href="????" aria-label="Twitter"><i class="fab fa-x"></i></a>
+                    <a href="????" aria-label="Telegram"><i class="fab fa-telegram-plane"></i></a>
+                </div>
+                <!-- Почта -->
+                <a href="mailto:info@GrokToshi.com" class="footer-link">info@GrokToshi.com</a>
+            </div>
+        </div>
+        <div class="disclaimer">
+            <p>GrokToshi is a community-driven project. This is not financial advice.</p>
+            <p>$GROK is a meme token with no intrinsic value. External links are third-party services.</p>
+        </div>
+        <p class="copy">&copy; 2025 GROK. All rights reserved</p>
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
